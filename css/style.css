@@ -1,0 +1,572 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F8F8F5;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+a{
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+h1 {
+  font-size: 2.3rem;
+  font-family: "prata", serif;
+  font-weight: bold;
+  display: inline-block;
+  width: 24%;
+  color: black;
+  text-align: left;
+  outline: none;
+  text-decoration: none;
+}
+
+h2 {
+  padding-bottom: 15px;
+  padding-top: 30px;
+  margin-top: -17px;
+  font-size: 1.9rem;
+  text-align: left;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  text-align: center;
+  margin: 2px;
+  color: black;
+  font-size: 1.7rem;
+}
+.shadow {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.top_page, .products, .media , .website-footer, .the_advantages, .stars-row, .product-info, .promotion-product {
+  display: flex;
+}
+
+.discover_now, .product-cta, .description a, .footer-column ul, .learn_more a   {
+  text-decoration: none;
+}
+
+
+/* NAVIGATION */
+.container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: #f6f6ed;
+  padding-bottom: 10px;
+}
+
+.top_page {
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: row;
+  align-content: center;
+  margin-top: 30px;
+  border-bottom: solid 1px #e5d1d5;
+  margin-bottom: 10px;
+}
+
+.icones {
+  font-size: 1.9rem;
+  padding-left: 15px;
+}
+
+.search_responsive {
+  display: none;
+}
+
+.logo-kimiebeauty {
+  width: 370px;
+  padding: 0px;
+  padding-left: 30px;
+  align-items: center;
+  text-align: center;
+  color: #802537;
+  font-size: 2.3rem;
+  font-family: 'Prata', serif;
+}
+
+.two_logo {
+  padding-right: 3px;
+}
+
+.hamburger_menu {
+  display: none;
+}
+
+.navigation {
+  text-align: center;
+  width: 100%;
+}
+
+.navigation a {
+  font-size: 1.3rem;
+}
+
+.navigation li {
+  text-align: center;
+  display: inline-block;
+  padding: 0px 30px 2px 30px;
+}
+
+a:hover {
+  color: #813342;
+  opacity: 1;
+  transition: ease .3s;
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+header {
+  margin-top: 120px;
+}
+
+.headband {
+  align-content: center;
+  text-align: left;
+  background-image: url("../images/blue_lips.jpeg");
+  width: 90%;
+  height: 650px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.inner-container {
+  position: absolute;
+  width: 100%;
+  color: #fadcdc;
+  padding-left: 60px;
+  top: 60px;
+}
+
+.inner-container a {
+  margin-top: 40px;
+  font-size: 2rem;
+  width: 20%;
+}
+
+.discover_now {
+  color: white;
+  z-index: 1;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: inline-block;
+  padding: 10px;
+  border: 2px solid #4f262e;
+  text-align: center;
+  border-radius: 8px;
+  font-family: "source sans pro", sans-serif;
+  transition: background-color 0.2s ease-out, color 0.2s ease-out;
+  background-color: #4d1e27
+}
+
+.discover_now:hover, .discover_now:active {
+  background-color: #3a1616;
+  color: white;
+  transition: 0.2s ease-in, color 0.2s ease-in;
+}
+
+/* TEXTE DE TRANSITION  */
+.transition-text p {
+  padding: 75px;
+  color: #5b3636;
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: #ffefef;
+}
+
+/* SHOP */
+.products {
+  justify-content: space-around;
+}
+
+.week_products {
+  width: 100%;
+  background-color: #f8f8f8;
+  margin: 0 auto;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  margin-bottom: 80px;
+  margin-top: 30px;
+}
+
+.week_products h2 {
+  font-size: 1.9rem;
+  margin: 0 auto;
+  padding: 0px;
+  line-height: 100px;
+  text-align: center;
+  color: #530505;
+}
+
+.week_products h2, .description-website, footer h3, .transition-text p, first-advantage p, .first-advantage, .second-advantage p, .third-advantage p, .cruelty_free p, h4, .description-website p, .promotion-products h2  {
+  font-family: "source sans pro", sans-serif;
+}
+
+
+.single-product {
+  margin: 0 auto;
+  padding: 0px 0px 0px 10px;
+  position: relative;
+  width: 27%;
+}
+
+.product-image .overlay {
+  position: absolute;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.product-image:hover .overlay .like {
+  transition: ease .3s;
+  color: red;
+}
+
+.product-image {
+  position: relative;
+}
+
+.like {
+  position: absolute;
+  font-size: 2.5rem;
+  top: -20px;
+  right: 80px;
+  color: pink;
+}
+
+.fa fa-heart:hover {
+  position: absolute;
+}
+
+.fa-heart:before {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+}
+
+.product-info {
+  align-items: center;
+  margin: 0;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.price {
+  font-size: 1.6rem;
+  margin: 0px;
+  color: black;
+  text-align: center;
+}
+
+.stars-row {
+  justify-content: center;
+  align-items: center;
+}
+
+.stars-row img {
+  margin: 0;
+  padding: 0;
+  width: 27px;
+  height: 27px;
+}
+
+.product-cta a {
+  padding: 10px 15px;
+  font-size: 1.4rem;
+  align-items: center;
+
+}
+
+.product-cta {
+  background-color: #8b4e54;
+  color: white;
+  padding: 10px 50px;
+  font-size: 1.5rem;
+  border: 1px solid;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.product-image img {
+  padding: 0px;
+  height: 20%;
+  text-align: center;
+}
+
+.product-img {
+  width: 100%;
+  margin: auto;
+}
+
+.product-cta:hover {
+  color: white;
+  background-color: #4d1e27;
+}
+
+.description {
+text-align: center;
+}
+
+
+.description a {
+  color: black;
+  font-size: 1.5rem;
+  margin: 0;
+  text-align: center;
+}
+
+.description a:hover {
+  color: #8b4e54;
+}
+
+/* PROMOTION */
+.promotion-product {
+  align-content: center;
+  width: 100%;
+  background-color: black;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.promotion-products h2 {
+  text-align: center;
+  color: white;
+}
+
+.text-container h2 {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 80px;
+  margin: 0 auto;
+  font-size: 1.5rem;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+
+.learn_more {
+  border: 1px solid;
+  border-radius: 8px;
+  background-color: white;
+  position: absolute;
+  font-size: 1.5rem;
+  bottom: 23%;
+  right: 15%;
+  padding: 7px;
+  color: black;
+}
+
+.learn_more a {
+  color:red;
+}
+
+/* NON TESTE SUR LES ANIMAUX */
+.cruelty_free {
+  padding-top: 100px;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.cruelty_free p {
+  color: #9f4556;
+  font-size: 1.8rem;
+}
+
+.cruelty_free img {
+  width: 7%;
+}
+
+/* AVANTAGES E-BOUTIQUE */
+.avantages {
+  padding-top: 10px;
+  background-color: #fff0f2;
+  height: 130px;
+}
+
+.the_advantages {
+  justify-content: space-evenly;
+  text-align: center;
+  flex-direction: row;
+}
+
+.avantages h2 {
+  font-weight: bold;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.footer-column h3, .footer-column ul{
+padding: 0;
+color: #530505;
+font-family: "source sans pro", sans-serif;
+}
+
+
+.first-advantage img, .second-advantage img, .third-advantage img {
+  width: 17%;
+  margin: 0 auto;
+}
+
+.first-advantage p, .second-advantage p, .third-advantage p {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+/* FOOTER */
+.website-footer {
+ color: #530505;;
+  margin: 26px;
+}
+
+footer h3 {
+  font-size: 1.4rem;
+  padding-left: 20px;
+}
+
+/* COLUMN 1 */
+.description-website {
+  font-size: 1.2rem;
+  text-align: center;
+  width: 100%;
+  padding-left: 20px;
+  padding: 0;
+}
+
+.footer-column {
+  width: 25%;
+  text-align: center;
+}
+
+
+.footer-column ul {
+  font-size: 1.2rem;
+  list-style-type: none;
+}
+
+.footer-column a:hover {
+  color: #530505;
+  transition: ease .3s;
+}
+
+form>div {
+  margin-bottom: 10px;
+}
+
+/* 2ND COLUMN */
+#userPseudo , #userMail, #userTel  {
+  width: 80%;
+  height: 40%;
+}
+
+.footer-column textarea {
+  resize: none;
+  width: 80%;
+}
+
+
+/* FOLLOWING MEDIA */
+.follow {
+  color: #36191e;
+  font-size: 1.5rem;
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
+  font-family: "source sans pro", sans-serif;
+}
+
+.media {
+  text-align: center;
+  margin: 0 auto;
+  border-bottom: solid 0.5px grey;
+}
+
+.the_advantages img {
+  width: 47px;
+  height: 47px;
+  margin: 0 auto;
+}
+
+.media a {
+  color: #36191e;
+  display: inline-block;
+  font-size: 2rem;
+  padding: 40px;
+}
+
+.media a:hover {
+  color: #E87171;
+}
+
+.instagram a:hover {
+  color: #D6570F;
+}
+
+.facebook a:hover {
+  color: #3B5998;
+}
+
+.twitter a:hover {
+  color: #50A4F1;
+}
+
+.pinterest a:hover {
+  color: red;
+}
+
+.ending {
+  color: #36191e;
+  text-align: center;
+}
+
+/* ANCHOR */
+#up_page {
+  position: fixed;
+  bottom: 40px;
+  right: 30px;
+  font-size: 40px;
+  color: #9f4556;
+}
+
+#up_page:hover {
+  color: #E87171;
+}
+
+.icones, .navigation a, .avantages h2, .description-website, .links a {
+  color: #4f262e;
+}
+
+*/

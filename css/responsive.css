@@ -1,0 +1,267 @@
+@media (max-device-width:640px) {
+    {
+    width: 100%;
+  }
+
+  html {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 0.8rem;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 130px;
+  }
+
+  h2 {
+    padding-bottom: 2px;
+    padding-top: 30px;
+    margin-top: -17px;
+    font-family: "source sans pro", sans-serif;
+    font-size: 1.6rem;
+    width: 40%;
+  }
+  h4 {
+    font-family: "source sans pro", sans-serif;
+    font-size: 1.3rem;
+  }
+
+.search_logo, nav, #up_page {
+
+display: none;
+
+}
+
+  /* HAUT DE LA BARRE DE NAVIGATION */
+  .top_page {
+    margin-top: 10px;
+  }
+
+  .icones {
+    font-size: 1.5rem;
+    padding-left: 5px;
+  }
+
+  .logo-kimiebeauty {
+    padding: 0px;
+    font-size: 1.4rem;
+    width: 150px;
+  }
+
+  .two_logo {
+    padding-right: 2px;
+  }
+
+  .search_responsive p {
+    color: #4f262e;
+    font-size: 1.2rem;
+    margin: 0;
+  }
+
+  .hamburger_menu {
+    display: block;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    padding: 0 0 10px 10px;
+    margin: 0px;
+  }
+
+  .search_responsive {
+    display: block;
+    width: 85%;
+    background-color: #f0e6e6;
+    display: flex;
+    height: 22px;
+    align-self: baseline;
+    border-radius: 4px;
+    margin: 0 auto;
+  }
+
+  .search_responsive img {
+    padding: 4px;
+    width: 15%;
+  }
+
+  /* HEADER */
+  header {
+    margin-top: 100px;
+  }
+
+  .headband {
+    width: 100%;
+    height: 260px;
+    background-size: contain;
+    position: relative;
+    margin-top: 10px;
+  }
+
+  .inner-container {
+    text-align: center;
+    position: absolute;
+    padding: 1px;
+    top: 20px;
+  }
+
+  .inner-container a {
+    margin-top: 2px;
+    font-size: 1.2rem;
+    width: 140px;
+  }
+
+  .discover_now {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid;
+  }
+
+  .transition-text p {
+    font-size: 1.1rem;
+    margin: 5%;
+    padding: 7%;
+  }
+
+  .week_products {
+    padding: 0px 0px 50px 0px;
+    margin-bottom: 30px;
+  }
+
+  .week_products h2 {
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 0px;
+    width: 100%;
+  }
+
+  .products {
+    display: block;
+    text-align: center;
+  }
+
+  .single-product {
+    padding: 0px 10px;
+    width: 78%;
+    margin: 0 auto;
+  }
+
+  .stars-row {
+    text-align: center;
+  }
+
+  .like {
+    position: absolute;
+    font-size: 2.5rem;
+    top: -20px;
+    right: 80px;
+    color: pink;
+  }
+
+  /* PROMOTION */
+  .promotion-product {
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .promotion-products h2 {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    font-size: 1.3rem;
+    width: 100%;
+  }
+
+  .text-container {
+    height: 80px;
+  }
+
+  .text-container h2 {
+    position: absolute;
+    padding: 20px 20px;
+  }
+
+  .learn_more {
+    border-radius: 0px;
+    font-size: 1.2rem;
+    bottom: -40%;
+    right: 33%;
+    padding: 7px;
+  }
+
+  /* NON TESTE SUR LES ANIMAUX*/
+  .cruelty_free {
+    padding: 70px 0px;
+  }
+
+  .cruelty_free img {
+    width: 20%;
+  }
+
+  .cruelty_free p {
+    font-size: 1.2rem;
+    padding: 3px 10px;
+  }
+
+  /* LES AVANTAGES */
+  .avantages {
+    display: block;
+    height: 20%;
+  }
+
+  .avantages h2 {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .first-advantage img, .second-advantage img, .third-advantage img {
+    width: 30%;
+    margin: 0 auto;
+  }
+
+  .first-advantage p, .second-advantage p, .third-advantage p {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+
+  /* FOOTER */
+  .website-footer {
+    display: block;
+  }
+
+  .footer-column {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .footer-column h3, .footer-column ul {
+    padding: 0;
+  }
+
+  .footer-column h3 {
+    font-size: 1.5rem;
+    font-family: "source sans pro", sans-serif;
+    color: #530505;
+  }
+
+  .description-website {
+    font-size: 1rem;
+    padding: 0;
+  }
+
+  .instagram {
+    padding-left: 0px;
+  }
+
+  .follow {
+    font-size: 1.2rem;
+  }
+
+  .media a {
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .ending {
+    font-size: 0.8rem;
+  }
+}
